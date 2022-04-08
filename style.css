@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Open+Sans:wght@400;500;700;800&display=swap');
+h1, button, h4{
+	font-family: 'Gideon Roman';
+	font-weight: bold;
+}
 *{
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+	font-family: 'Gideon Roman';
 }
 .m-left{
 	margin-left:100px;
@@ -41,13 +47,13 @@ button {
 	background-size: cover;
 	padding:160px 0px;
 }
+
 .content-area{
       background:#4ab75c;
 }
 .footer-area{
       background: #2c1a8e;
 }
-.footer-menu{}
 .footer-menu ul {
 	padding-top: 20px;
 }
@@ -66,3 +72,4 @@ button {
 .content-wraper {
 	padding-top: 76px;
 }
+/* responsive */
